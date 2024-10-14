@@ -75,7 +75,7 @@ O teste deve ter um nivel de dificuldade médio para desafiador.
 No seu output, deve contar apenas o exercício, nada a mais, nada a menos. 
 Use formatação para destacar o que for importante e emojis quando pertinente (nao exagere).
 Não apresente a resposta correta. 
-Invente uma historia de background para o exercicio, dando algum contexto interessante, mas seja breve!. 
+Seja objetivo e preciso na escrita do exercício. Varie Bastante as ideias também. 
 
 <material de aula>
 {conteudo_aula}
