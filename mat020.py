@@ -68,7 +68,7 @@ with aba1:
         Nos exercicios do tipo teste, deve ter uma pergunta e 4 alternativas de resposta, da qual apenas uma seja correta.
         Cada alternativa deve estar em uma linha. 
         Não diga qual resposta é a correta. 
-        O output deve conter os 3 exercicios abertos seguidos dos 3 exercicios de teste, separados por sessão. 
+        O output deve conter os 3 exercicios abertos seguidos dos 3 exercicios de teste, seguido de uma breve resolução dos exercícios abertos e o gabarito dos exercicios de teste, separados por sessão. 
         No seu output, deve contar apenas o exercício, nada a mais, nada a menos. 
         Use formatação quando necessário, use negrito e italico para destacar o que for importante e emojis quando pertinente. 
 
