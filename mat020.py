@@ -40,7 +40,7 @@ aulas = buscar_aulas(diretorio_aulas)
 def aux(x):
     return x[:-4]
 # Widget de seleção de aula
-aula_selecionada = st.sidebar.selectbox('Selecione uma aula:', aulas, format_func = aux)
+aula_selecionada = st.sidebar.selectbox('Selecione uma aula:', sorted(aulas), index = len(aulas)-1, format_func = aux)
  
 caminho_aula = os.path.join(diretorio_aulas, aula_selecionada)
 conteudo_aula = ler_aula(caminho_aula)
