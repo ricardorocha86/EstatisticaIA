@@ -70,7 +70,7 @@ Para auxiliar no cálculo da correlação, vamos criar uma tabela com as colunas
 Para calcular a variância amostral, usamos a fórmula:
 
 $$
-\text{VAR}(X) = \frac{\sum (X - \text{Média}(X))^2}{n - 1}
+\text{VAR}(X) = \frac{\sum (X_i - \bar{X})^2}{n - 1}
 $$
 
 Aplicando essa fórmula para $T$ e $S$:
@@ -78,13 +78,13 @@ Aplicando essa fórmula para $T$ e $S$:
 1. **Para $T$:**
 
    $$
-   \text{VAR}(T) = \frac{\sum (T - \text{Média}(T))^2}{n - 1} = \frac{10.0}{4} = 2.5
+   \text{VAR}(T) = \frac{\sum (T_i - \bar{T})^2}{n - 1} = \frac{10.0}{4} = 2.5
    $$
 
 2. **Para $S$:**
 
    $$
-   \text{VAR}(S) = \frac{\sum (S - \text{Média}(S))^2}{n - 1} = \frac{10.0}{4} = 2.5
+   \text{VAR}(S) = \frac{\sum (S_i - \bar{S})^2}{n - 1} = \frac{10.0}{4} = 2.5
    $$
 
 Portanto, a variância amostral de $T$ e $S$ é $2.5$. Iguais por coincidencia, poderia ser diferentes. E portanto o $DP(X)$ e $DP(Y) = 1,6$, aproximadamente (raiz quadrada da variância).
