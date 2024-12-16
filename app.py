@@ -10,7 +10,7 @@ st.set_page_config(
 paginas = {"Páginas": [
         st.Page("paginas/aulas.py", title="Aulas", icon='📚'), 
         st.Page("paginas/chatbot.py", title="Chatbot", icon='🐒'), 
-        st.Page("paginas/prova.py", title="Prova", icon='⚡'), 
+      #  st.Page("paginas/prova.py", title="Prova", icon='⚡'), 
     ],
     "Outras Páginas": [
         st.Page("paginas/inicial.py", title="Início", default = True), 
